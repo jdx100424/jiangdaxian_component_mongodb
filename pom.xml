@@ -20,16 +20,17 @@
 	<properties>
 		<!-- mongodb -->
 		<spring.data.mongodb>1.9.2.RELEASE</spring.data.mongodb>  
-        <mongodb.java.driver>3.2.2</mongodb.java.driver>  
+        <mongodb.java.driver>3.4.0</mongodb.java.driver>  
         <spring-boot-mongodb.version>1.5.3.RELEASE</spring-boot-mongodb.version>
 		<mongodb.bson.version>2.3</mongodb.bson.version>
+		<jongo.version>1.4.0</jongo.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.jongo</groupId>
 			<artifactId>jongo</artifactId>
-			<version>1.3.0</version>
+			<version>${jongo.version}</version>
 		</dependency>	
 	
 		<dependency>
