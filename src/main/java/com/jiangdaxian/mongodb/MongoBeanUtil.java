@@ -9,6 +9,7 @@ import org.apache.commons.beanutils.BeanUtils;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 
+@Deprecated
 public class MongoBeanUtil {
 	/**
 	 * 把实体bean对象转换成DBObject
